@@ -1,5 +1,5 @@
 function copiarCodigoPix() {
-    var codigoPix = "00020126400014br.gov.bcb.pix0111609839141680203Pix5204000053039865802BR5923RAFAEL SATOSHI SIRAHATA6011TRES LAGOAS62290525mNzv4J927W8bZPvEj23GbLQuI63042FF7";
+    var codigoPix = "00020126360014br.gov.bcb.pix0114093724810001305204000053039865802BR5925CONTACT   PAPELARIA E INF6011Tres Lagoas610979630-000622905251HTT5986956017224599385676304CD55";
     navigator.clipboard.writeText(codigoPix)
     .then(() => {
         var botao = document.getElementById("botaoCopiar");
@@ -15,14 +15,14 @@ function copiarCodigoPix() {
 }
 
 function copiarChavePix() {
-    var ChavePix = "60983914168";
+    var ChavePix = "09.372.481/0001-30";
     navigator.clipboard.writeText(ChavePix)
     .then(() => {
         var botao = document.getElementById("CopiarPix");
         var icone = botao.querySelector("i");
         botao.innerHTML = "Copiado  <i class='fas fa-check'></i>";
         setTimeout(function() {
-            botao.innerHTML = "609.839.141.68  <i class='fas fa-copy'></i>";
+            botao.innerHTML = "09.372.481/0001-30  <i class='fas fa-copy'></i>";
         }, 1000);
     })
     .catch(err => {

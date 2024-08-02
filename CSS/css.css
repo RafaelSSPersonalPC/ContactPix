@@ -85,7 +85,7 @@
         margin-top: 3%;
     }
       .texto1 {
-        margin-right: 10px; /* Adiciona margem à direita */
+        margin-right: 1px; /* Adiciona margem à direita */
         font-weight: bold;
         line-height: 1.5; /* Adiciona espaço entre as linhas */
         text-align: left; /*  left;/* Alinha o texto à esquerda */ /*center;/* Alinha o texto no centro */
